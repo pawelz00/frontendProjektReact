@@ -4,7 +4,7 @@
 }
 
 body {
-  margin: 0;
+  margin:0;
   background-color: #9999ff;
 }
 
@@ -94,4 +94,28 @@ body {
 .register--button:hover {
   width:202px;
   height:102px;
+}
+
+.navbar {
+  height:100px;
+  background-color: #8383fb;
+  border-bottom: 1px groove #9999ff;
+}
+
+.navbar--list {
+  margin:0;
+  display:flex;
+  justify-content:center;
+}
+
+.navbar--link {
+  color:#fff;
+  font-size:30px;
+  text-decoration: none;
+  font-weight: bold;
+  padding:20px;
+}
+
+.navbar--link:hover {
+  text-decoration:underline #9999ff;
 }
