@@ -16,7 +16,7 @@ body {
   width:1000px;
   margin:auto;
   display: grid;
-  margin-top:100px;
+  margin-top:150px;
 }
 .register {
   width:500px;
@@ -118,4 +118,11 @@ body {
 
 .navbar--link:hover {
   text-decoration:underline #9999ff;
+}
+
+#register--span {
+  margin-top:25px;
+  text-align: center;
+  font-size:40px;
+  letter-spacing: 3px;
 }

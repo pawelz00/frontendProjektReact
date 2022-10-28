@@ -10,7 +10,9 @@ export const Login : React.FC = () => {
     }
 
     const handleRegister = () => {
-        alert("Zarejestrowano!")
+        const span = document.getElementById("register--span")
+        span!.innerText = "Registered!" 
+        setTimeout(() => span!.innerText="", 1000);
     }
 
     return (
@@ -25,6 +27,7 @@ export const Login : React.FC = () => {
                 <input placeholder='Password' className="register--input" type="text"/>
                 <input placeholder='Email' className="register--input" type="text"/>
                 <button onClick={handleRegister} className="register--button">REGISTER</button>
+                <span id="register--span"></span>
             </div>
        </div>
        
