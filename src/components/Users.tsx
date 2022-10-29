@@ -1,13 +1,23 @@
 import * as React from 'react';
 import Navbar from './Navbar';
+import User from './User'
 
 
 const Users: React.FC = () => {
     return (
-    <div>
+    <>
         <Navbar/>
-        <h1>Users!</h1>
-    </div>
+        <div className="users">
+            <User/>
+            <User/>
+            <User/>
+            <User/>
+            <User/>
+            <User/>
+            <User/>
+            <User/>
+        </div>
+    </>
     )
 }
 

@@ -5,7 +5,7 @@
 
 body {
   margin:0;
-  background-color: #9999ff;
+  background-color: #B0D9D5;
 }
 
 .login--comp {
@@ -83,8 +83,8 @@ body {
   margin:auto;
   margin-top:50px;
   border-radius:10px;
-  background-color:rgb(250, 152, 152);
-  color:rgb(0, 0, 0);
+  background-color:#1A1C40;
+  color:#fff;
   font-size:30px;
   font-weight: bold;
   cursor: pointer;
@@ -98,18 +98,17 @@ body {
 
 .navbar {
   height:100px;
-  background-color: #8383fb;
-  border-bottom: 1px groove #9999ff;
+  background-color: #0D0D0D;
 }
 
 .navbar--list {
   margin:0;
   display:flex;
-  justify-content:center;
+  /* justify-content:center; */
 }
 
 .navbar--link {
-  color:#fff;
+  color:#B0D9D5;
   font-size:30px;
   text-decoration: none;
   font-weight: bold;
@@ -117,7 +116,15 @@ body {
 }
 
 .navbar--link:hover {
-  text-decoration:underline #9999ff;
+  color:#D96F66;
+}
+
+.navbar--react {
+  margin-top:8px;
+  color:white;
+  font-size:70px;
+  color:#b0d9d5;
+  
 }
 
 #register--span {
@@ -125,4 +132,47 @@ body {
   text-align: center;
   font-size:40px;
   letter-spacing: 3px;
+}
+
+.users {
+  margin:auto;
+  width:1200px;
+  background-color: #F0EDE6;
+  padding:50px;
+  border: 3px solid #000;
+  border-top:none;
+}
+
+.user {
+  display:flex;
+  flex-direction: row;
+  text-align:center;
+  align-items: center;
+  padding:10px;
+  margin-bottom:20px;
+  justify-content: center;
+}
+
+.user > hr {
+  margin-top:20px;
+}
+
+.user--name > h1 {
+  color: #21BFAF;
+  font-size:40px;
+}
+
+.user--name {
+  width:100px;
+  text-align:left;
+  margin-right:20px;
+}
+
+.user--other {
+  text-align:right;
+  font-size:15px;
+}
+
+h1, h2, h3, h4 {
+  margin:0;
 }
