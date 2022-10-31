@@ -163,12 +163,12 @@ body {
 }
 
 .user--name {
-  width:100px;
+  width:200px;
   text-align:left;
-  margin-right:20px;
 }
 
 .user--other {
+  width:300px;
   text-align:right;
   font-size:15px;
 }
